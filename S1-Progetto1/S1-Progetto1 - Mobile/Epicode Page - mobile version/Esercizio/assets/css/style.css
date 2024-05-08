@@ -1,0 +1,155 @@
+/* Your styles here */
+/*IMPOSTAZIONI GENERALI*/
+body{
+    text-align:center;
+    margin: 0px;
+}
+body p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41; 
+
+}
+
+/*HEADER*/
+#header{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+#logo{
+    width:25%;
+}
+
+/*MAIN*/
+#banner{
+    background-image: url('../images/banner.jpg');
+    background-size:contain;
+    padding:38px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Montserrat', sans-serif;
+    color:#25a2c3;
+}
+
+h1{
+    font-size:2em;
+}
+
+#banner p{
+    line-height: 1.5;
+}
+
+#bot{
+    background-color: #f04c2f;
+    font-family:'Montserrat', sans-serif;
+    color:white;
+    border-radius: 4px;
+    border-style: hidden;
+    padding:15px;
+    width:40%;
+
+}
+
+#img1{
+border-radius: 200px;
+width:70%;
+}
+
+.scheda{
+    border:solid #dee1e3;
+    border-radius:5px;
+    width:97%;
+    margin: 0 auto;
+}
+
+.testo{
+    padding:20px;
+}
+
+.main{
+    width:100%;
+}
+.scheda img{
+    width:100%;
+}
+
+.articolo{
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:15px;
+}
+
+
+/*ASIDE*/
+#secondcontent{
+background-color: #e22d0e;
+padding-left:80px;
+padding-right:80px;
+padding-top:30px;
+padding-bottom:30px;
+margin: o auto;
+}
+
+#secondcontent h2{
+color:white;
+}
+
+#secondcontent p{
+    color:white;
+    font-size:medium;
+    }
+
+#secondcontent p:first-of-type{
+    font-style:italic;
+    font-size:small
+}
+
+#secondcontent span{
+    font-size:smaller;
+}
+
+
+
+/*FOOTER*/
+#footer{
+background-color: #25a2c3;
+padding-left:25px;
+padding-right:25px;
+padding-top:25px;
+padding-bottom:50px;
+    
+}
+#footer h2{
+    color:white;
+}
+
+#footer a, li{
+    color: #c8e7f0; 
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+ul{
+    list-style-type:none;
+    margin-block-start:0px;
+    padding-inline-start:0px;
+    text-align:center;
+}
+
+#footer p{
+    color: #c8e7f0;
+    font-size:small; 
+}
+
+#footer span{
+    text-decoration: underline;
+}
+
+hr{
+    width:45%;
+}
